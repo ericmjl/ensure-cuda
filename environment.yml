@@ -10,3 +10,4 @@ dependencies:
 - twine
 - pre-commit
 - pytest
+- coverage
