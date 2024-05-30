@@ -61,17 +61,13 @@ select = ["E", "F", "I"]
 include-package-data = true
 
 [tool.setuptools.packages.find]
-where = ["ensure_cuda"]
+where = ["."]
+namespaces = false
+
 
 [project]
 name = "ensure-cuda"
 version = "0.0.1"
-dependencies = [
-    "matplotlib",
-    "pandas",
-    "scikit-learn",
-    "numpy",
-]
 readme = "README.md"
 
 [project.optional-dependencies]
@@ -82,10 +78,6 @@ docs = [
     "mkdocs-material",
     "mkdocs"
 ]
-
-[project.scripts]
-ensure-cuda = "ensure_cuda.cli:app"
-
 
 [tool.coverage.run]
 omit = [

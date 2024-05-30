@@ -14,5 +14,6 @@ try:
             f"{os.environ['CONDA_PREFIX']}/lib:"
             f"{os.environ['LD_LIBRARY_PATH']}"
         )
+        print("Set LD_LIBRARY_PATH to include $CONDA_PREFIX")
 except KeyError:
     pass
