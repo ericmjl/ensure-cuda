@@ -66,12 +66,6 @@ where = ["ensure_cuda"]
 [project]
 name = "ensure-cuda"
 version = "0.0.1"
-dependencies = [
-    "matplotlib",
-    "pandas",
-    "scikit-learn",
-    "numpy",
-]
 readme = "README.md"
 
 [project.optional-dependencies]
