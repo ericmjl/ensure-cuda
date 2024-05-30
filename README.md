@@ -1,6 +1,7 @@
 # ensure-cuda
 
-A small utility to ensure that one's `LD_LIBRARY_PATH` is set correctly at runtime.
+A small utility to ensure that one's `LD_LIBRARY_PATH` is set correctly at runtime
+when using cuda + conda environments.
 
 Made with ❤️ by Eric J. Ma (@ericmjl).
 
