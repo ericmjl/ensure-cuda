@@ -9,3 +9,4 @@ dependencies:
 - pip
 - twine
 - pre-commit
+- pytest
