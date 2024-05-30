@@ -61,7 +61,9 @@ select = ["E", "F", "I"]
 include-package-data = true
 
 [tool.setuptools.packages.find]
-where = ["ensure_cuda"]
+where = ["."]
+namespaces = false
+
 
 [project]
 name = "ensure-cuda"
@@ -76,10 +78,6 @@ docs = [
     "mkdocs-material",
     "mkdocs"
 ]
-
-[project.scripts]
-ensure-cuda = "ensure_cuda.cli:app"
-
 
 [tool.coverage.run]
 omit = [
